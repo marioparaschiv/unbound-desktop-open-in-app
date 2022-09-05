@@ -1,0 +1,17 @@
+{
+   "name": "open-in-app",
+   "version": "1.0.0",
+   "description": "Open links all over the discord app in their respective app.",
+   "main": "index.js",
+   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
+   "license": "Unlicensed",
+   "scripts": {
+      "build": "swc src -D -d dist --delete-dir-on-start",
+      "package": "rm -rf packer && mkdir packer && cp -r manifest.json packer/manifest.json && cp -r dist packer/dist && asar pack packer Open.In.App.asar && rm -rf packer"
+   },
+   "devDependencies": {
+      "@swc/cli": "^0.1.57",
+      "@swc/core": "^1.2.210",
+      "nodemon": "^2.0.19"
+   }
+}
