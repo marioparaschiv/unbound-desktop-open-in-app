@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Open links all over the discord app in their respective app.",
 	"main": "index.js",
-	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"author": "Mario <me@marioparaschiv.com> (github.com/marioparaschiv)",
 	"license": "Unlicensed",
 	"scripts": {
 		"build": "swc src -D -d dist --delete-dir-on-start",
